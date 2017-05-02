@@ -15,5 +15,5 @@ include 'api'
 include 'services:webservice'
 */
 
-include 'frontend'
+include 'angular'
 rootProject.name = 'vgang'

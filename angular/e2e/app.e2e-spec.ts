@@ -1,6 +1,6 @@
 import { VgangappPage } from './app.po';
 
-describe('vgangapp App', function() {
+describe('vgangapp App', () => {
   let page: VgangappPage;
 
   beforeEach(() => {

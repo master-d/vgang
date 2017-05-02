@@ -36,11 +36,11 @@ eclipse {
 }
 
 war {
- from 'frontend/dist' // adds a file-set to the root of the archive
+ from 'angular/dist' // adds a file-set to the root of the archive
  //   webInf { from 'src/additionalWebInf' } // adds a file-set to the WEB-INF dir.
  //  classpath fileTree('../itmdutil/build/libs/*.jar') // adds a file-set to the WEB-INF/lib dir.
  //   classpath configurations.moreLibs // adds a configuration to the WEB-INF/lib dir.
  //   webXml = file('WebContent/WEB-INF/web.xml') // copies a file to WEB-INF/web.xml
 }
 
-processResources.dependsOn('frontend:build')
+processResources.dependsOn('angular:build')
